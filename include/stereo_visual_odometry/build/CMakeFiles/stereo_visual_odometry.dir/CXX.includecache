@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.cpp
+system.h
+/home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.h
+
+/home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.h
+iostream
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+
