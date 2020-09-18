@@ -17,6 +17,20 @@ opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp
 -
+opencv2/calib3d.hpp
+-
+opencv2/imgproc.hpp
+-
+boost/filesystem.hpp
+-
+boost/graph/graph_traits.hpp
+-
+boost/graph/adjacency_list.hpp
+-
+boost/graph/connected_components.hpp
+-
+boost/graph/graphviz.hpp
+-
 tracking.h
 /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/tracking.h
 
@@ -29,6 +43,14 @@ system.h
 /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.h
 opencv2/features2d/features2d.hpp
 -
+
+/usr/local/include/opencv4/opencv2/calib3d.hpp
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core.hpp
+opencv2/features2d.hpp
+/usr/local/include/opencv4/opencv2/opencv2/features2d.hpp
+opencv2/core/affine.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/affine.hpp
 
 /usr/local/include/opencv4/opencv2/core.hpp
 opencv2/core/cvdef.h
@@ -59,6 +81,10 @@ opencv2/core/optim.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core/optim.hpp
 opencv2/core/ovx.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core/ovx.hpp
+
+/usr/local/include/opencv4/opencv2/core/affine.hpp
+opencv2/core.hpp
+-
 
 /usr/local/include/opencv4/opencv2/core/base.hpp
 opencv2/opencv_modules.hpp
@@ -385,6 +411,10 @@ opencv2/highgui.hpp
 /usr/local/include/opencv4/opencv2/highgui/opencv2/highgui.hpp
 
 /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core.hpp
+
+/usr/local/include/opencv4/opencv2/imgproc.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
 

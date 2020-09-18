@@ -5,7 +5,9 @@ CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o
  /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.cpp
  /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.h
  /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/tracking.h
+ /usr/local/include/opencv4/opencv2/calib3d.hpp
  /usr/local/include/opencv4/opencv2/core.hpp
+ /usr/local/include/opencv4/opencv2/core/affine.hpp
  /usr/local/include/opencv4/opencv2/core/base.hpp
  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
  /usr/local/include/opencv4/opencv2/core/check.hpp
@@ -43,13 +45,16 @@ CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o
  /usr/local/include/opencv4/opencv2/highgui.hpp
  /usr/local/include/opencv4/opencv2/highgui/highgui.hpp
  /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+ /usr/local/include/opencv4/opencv2/imgproc.hpp
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o
  /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.h
  /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/tracking.cpp
  /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/tracking.h
+ /usr/local/include/opencv4/opencv2/calib3d.hpp
  /usr/local/include/opencv4/opencv2/core.hpp
+ /usr/local/include/opencv4/opencv2/core/affine.hpp
  /usr/local/include/opencv4/opencv2/core/base.hpp
  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
  /usr/local/include/opencv4/opencv2/core/check.hpp
@@ -87,13 +92,16 @@ CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o
  /usr/local/include/opencv4/opencv2/highgui.hpp
  /usr/local/include/opencv4/opencv2/highgui/highgui.hpp
  /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+ /usr/local/include/opencv4/opencv2/imgproc.hpp
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o
  /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.h
  /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/core/tracking.h
  /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/src/main.cpp
+ /usr/local/include/opencv4/opencv2/calib3d.hpp
  /usr/local/include/opencv4/opencv2/core.hpp
+ /usr/local/include/opencv4/opencv2/core/affine.hpp
  /usr/local/include/opencv4/opencv2/core/base.hpp
  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
  /usr/local/include/opencv4/opencv2/core/check.hpp
@@ -131,5 +139,6 @@ CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o
  /usr/local/include/opencv4/opencv2/highgui.hpp
  /usr/local/include/opencv4/opencv2/highgui/highgui.hpp
  /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+ /usr/local/include/opencv4/opencv2/imgproc.hpp
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp

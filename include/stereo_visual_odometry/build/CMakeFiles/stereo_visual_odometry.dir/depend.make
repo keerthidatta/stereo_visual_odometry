@@ -4,7 +4,9 @@
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: ../core/system.cpp
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: ../core/system.h
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: ../core/tracking.h
+CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
+CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/core/affine.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/core/base.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/core/check.hpp
@@ -42,13 +44,16 @@ CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/open
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/highgui.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/highgui/highgui.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/imgproc.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
 
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: ../core/system.h
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: ../core/tracking.cpp
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: ../core/tracking.h
+CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
+CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/core/affine.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/core/base.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/core/check.hpp
@@ -86,13 +91,16 @@ CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/op
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/highgui.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/highgui/highgui.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/imgproc.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
 
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: ../core/system.h
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: ../core/tracking.h
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
+CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/affine.hpp
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/base.hpp
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/check.hpp
@@ -130,6 +138,7 @@ CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/highgui.hpp
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/highgui/highgui.hpp
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/imgproc.hpp
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
 

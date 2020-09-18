@@ -4,12 +4,15 @@
 #include <opencv2/features2d/features2d.hpp>
 
 const float MATCH_RATIO_THRESHOLD = 0.8f;
+//bool VISUALIZE_FEATURE_MATCHES = true;
+const float matchSurvivalRate = 0.5f;
+
 namespace DVO
 {
     class tracking
     {
     public:
-        tracking(tracking *tracker):tracker(tracker){}
+        tracking(std::unique_ptr<tracking> tracker):tracker_(std::move(tracker)){}
         
         //feature detectors
         void DetectAKAZEFeatures(const cv::Mat& image, 
@@ -17,7 +20,10 @@ namespace DVO
                                  cv::Mat& descriptors);
         
         //matching techniques
-        void MatchFeatures(cv::Mat& left_descriptors, 
+        void MatchFeatures(const cv::Mat &left_image, const cv::Mat &right_image,
+            std::vector<cv::KeyPoint> &left_keypoints, 
+                           std::vector<cv::KeyPoint> &right_keypoints,
+                           cv::Mat& left_descriptors, 
                            cv::Mat& right_descriptors);
 
         std::vector<cv::DMatch> MatchRatioTest(const cv::DescriptorMatcher& matcher, 
@@ -25,7 +31,8 @@ namespace DVO
                                                const cv::Mat& descriptors2);
 
     private:
-        tracking *tracker;
+        //tracking *tracker;
+        std::unique_ptr<tracking> tracker_;
     };
 
 }

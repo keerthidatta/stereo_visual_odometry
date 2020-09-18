@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 
     DVO::system system(calibrationpath);
     cv::Mat left_image, right_image;
-    int number_frames = 10;
+    int number_frames = 100;
     int init_frame = 48978;
 
     for (int frame=init_frame;  frame<init_frame+number_frames; frame++)
