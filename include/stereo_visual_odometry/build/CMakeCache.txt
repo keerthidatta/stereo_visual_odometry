@@ -216,7 +216,7 @@ OSM_A_star_search_BINARY_DIR:STATIC=/home/datta/simulation_ws/src/stereo_visual_
 OSM_A_star_search_SOURCE_DIR:STATIC=/home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry
 
 //The directory containing a CMake configuration file for OpenCV.
-OpenCV_DIR:PATH=/usr/share/OpenCV
+OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4
 
 
 ########################
@@ -367,5 +367,5 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][v3.2.0(3.2.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][v4.4.0(4.4.0)]
 

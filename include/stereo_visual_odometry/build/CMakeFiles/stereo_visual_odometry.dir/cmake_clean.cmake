@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.o"
+  "CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o"
   "CMakeFiles/stereo_visual_odometry.dir/src/main.cpp.o"
   "stereo_visual_odometry"
   "stereo_visual_odometry.pdb"

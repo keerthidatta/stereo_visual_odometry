@@ -167,6 +167,33 @@ core/system.cpp.s:
 	$(MAKE) -f CMakeFiles/stereo_visual_odometry.dir/build.make CMakeFiles/stereo_visual_odometry.dir/core/system.cpp.s
 .PHONY : core/system.cpp.s
 
+core/tracking.o: core/tracking.cpp.o
+
+.PHONY : core/tracking.o
+
+# target to build an object file
+core/tracking.cpp.o:
+	$(MAKE) -f CMakeFiles/stereo_visual_odometry.dir/build.make CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.o
+.PHONY : core/tracking.cpp.o
+
+core/tracking.i: core/tracking.cpp.i
+
+.PHONY : core/tracking.i
+
+# target to preprocess a source file
+core/tracking.cpp.i:
+	$(MAKE) -f CMakeFiles/stereo_visual_odometry.dir/build.make CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.i
+.PHONY : core/tracking.cpp.i
+
+core/tracking.s: core/tracking.cpp.s
+
+.PHONY : core/tracking.s
+
+# target to generate assembly for a file
+core/tracking.cpp.s:
+	$(MAKE) -f CMakeFiles/stereo_visual_odometry.dir/build.make CMakeFiles/stereo_visual_odometry.dir/core/tracking.cpp.s
+.PHONY : core/tracking.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -206,6 +233,9 @@ help:
 	@echo "... core/system.o"
 	@echo "... core/system.i"
 	@echo "... core/system.s"
+	@echo "... core/tracking.o"
+	@echo "... core/tracking.i"
+	@echo "... core/tracking.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -91,12 +91,12 @@ clean: CMakeFiles/stereo_visual_odometry.dir/clean
 CMakeFiles/stereo_visual_odometry.dir/all:
 	$(MAKE) -f CMakeFiles/stereo_visual_odometry.dir/build.make CMakeFiles/stereo_visual_odometry.dir/depend
 	$(MAKE) -f CMakeFiles/stereo_visual_odometry.dir/build.make CMakeFiles/stereo_visual_odometry.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/build/CMakeFiles --progress-num=1,2,3 "Built target stereo_visual_odometry"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/build/CMakeFiles --progress-num=1,2,3,4 "Built target stereo_visual_odometry"
 .PHONY : CMakeFiles/stereo_visual_odometry.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stereo_visual_odometry.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stereo_visual_odometry.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/datta/simulation_ws/src/stereo_visual_odometry/include/stereo_visual_odometry/build/CMakeFiles 0
 .PHONY : CMakeFiles/stereo_visual_odometry.dir/rule

@@ -1,0 +1,33 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Parameters. Adjust them!
+#--------------------------------------------------------------------------------------------
+
+# Camera calibration and distortion parameters (OpenCV) 
+Camera.fx: 968.999694824 
+Camera.fy: 968.999694824
+Camera.cx: 635.139038086
+Camera.cy: 463.537109375
+
+Camera.k1: 0.0
+Camera.k2: 0.0
+Camera.p1: 0.0
+Camera.p2: 0.0
+
+Camera.width: 1280
+Camera.height: 960
+
+# Camera frames per second 
+Camera.fps: 10.0
+
+# stereo baseline times fx
+Camera.bf: -226.746 #968.999694824 * 0.234
+
+# Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
+Camera.RGB: 1
+
+# Close/Far threshold. Baseline times.
+ThDepth: 100
+ground_truth: "gt_trajectory_seq22.txt"
+PATH_TO_IMAGE_SEQUENCE: "/home/datta/Thesis/My_Experiments/Visual_odometry/"

@@ -11,7 +11,8 @@
 //Include core modules of visual odometry
 #include "../include/stereo_visual_odometry/core/system.h"
 #include "../include/stereo_visual_odometry/core/system.cpp"
-
+#include "../include/stereo_visual_odometry/core/tracking.h"
+#include "../include/stereo_visual_odometry/core/tracking.cpp"
 
 std::string LEFT_IMAGE_TOPIC_DEFAULT = "/left/stereo_camera/image_raw"; 
 std::string RIGHT_IMAGE_TOPIC_DEFAULT = "/right/stereo_camera/image_raw";
