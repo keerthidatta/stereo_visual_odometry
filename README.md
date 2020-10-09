@@ -37,11 +37,11 @@ clone husky from https://github.com/keerthidatta/husky_mars.git
 
 
 ### BUILD and INSTALL source
-cd catkin_ws/src
-git clone https://github.com/keerthidatta/husky_mars.git
-git clone https://github.com/keerthidatta/stereo_visual_odometry.git
-catkin_make
-source devel/setup.bash
+1. cd ~/catkin_ws/src
+2. git clone https://github.com/keerthidatta/husky_mars.git
+3. git clone https://github.com/keerthidatta/stereo_visual_odometry.git
+4. catkin_make
+5. source devel/setup.bash
 
 ### Usage
 In threee different terminals, run
@@ -50,4 +50,5 @@ In threee different terminals, run
 
 2. rosrun stereo_visual_odometry stereo_visual_odom
 
-3. ![Alt text](img.jpg?raw=true "Control husky")
+3. 
+![Alt text](img.jpg?raw=true "Control husky")

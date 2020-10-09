@@ -18,10 +18,15 @@ namespace DVO
         cv::Mat left_descriptors, right_descriptors;
 
         //TODO: create a thread and left and right feature detection have to be perfomed by thread
-        std::thread t1, t2;
+        /*
+        std::thread t1 = std::thread(&DVO::tracking::DetectAKAZEFeatures, left_image, left_keypoints, left_descriptors);
+        std::thread t2 = std::thread(&DVO::tracking::DetectAKAZEFeatures, right_image, right_keypoints, right_descriptors);
+        t1.join();
+        t2.join();
+        */
+
         tracking.DetectAKAZEFeatures(left_image, left_keypoints, left_descriptors);
         tracking.DetectAKAZEFeatures(right_image, right_keypoints, right_descriptors);
-        
 
         //Feature matching:
         tracking.MatchFeatures(left_image, right_image, left_keypoints, right_keypoints, left_descriptors, right_descriptors);
