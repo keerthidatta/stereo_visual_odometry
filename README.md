@@ -44,20 +44,10 @@ catkin_make
 source devel/setup.bash
 
 ### Usage
-In threee different terminals,
+In threee different terminals, run
 
-launch husky in mars environment
 1. roslaunch husky_gazebo_mars_world husky_mars.launch 
 
-run visual odometry
 2. rosrun stereo_visual_odometry stereo_visual_odom
 
-control husky : ex
-3. rostopic pub /husky_velocity_controller/cmd_vel geometry_msgs/Twist "linear:
-  x: 0.5
-  y: 0.0
-  z: 0.0
-angular:
-  x: 0.0
-  y: 0.0
-  z: 0.0" -r 10
+3. ![Alt text](img.jpg?raw=true "Control husky")
