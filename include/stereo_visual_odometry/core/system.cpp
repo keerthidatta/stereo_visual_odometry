@@ -1,5 +1,5 @@
 #include "system.h"
-
+#include <thread>
 namespace DVO
 {
     system::system(const std::string &settings_file)
@@ -18,6 +18,7 @@ namespace DVO
         cv::Mat left_descriptors, right_descriptors;
 
         //TODO: create a thread and left and right feature detection have to be perfomed by thread
+        std::thread t1, t2;
         tracking.DetectAKAZEFeatures(left_image, left_keypoints, left_descriptors);
         tracking.DetectAKAZEFeatures(right_image, right_keypoints, right_descriptors);
         
