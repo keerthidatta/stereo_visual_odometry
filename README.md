@@ -60,7 +60,7 @@ In threee different terminals, run
 * Without ROS
 1. Provide path to image sequence in the config.yaml file. 
 2. Adjust main.cpp as given in example. 
-3. In build folder run, ./stereo_visual_odometry ../config/config.yaml
+3. In stereo_visual_odometry/include/stereo_visual_odometry/build folder run, ./stereo_visual_odometry ../config/config.yaml. Already configured for few example images
 
 ## Rubric points : For UDACITY final project
 

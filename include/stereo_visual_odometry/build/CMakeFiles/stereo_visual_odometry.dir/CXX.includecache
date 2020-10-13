@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/datta/amadee_ws/src/amadee-20/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.cpp
-system.h
-/home/datta/amadee_ws/src/amadee-20/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.h
-thread
--
-
 /home/datta/amadee_ws/src/amadee-20/src/stereo_visual_odometry/include/stereo_visual_odometry/core/system.h
 iostream
 -
@@ -27,10 +21,6 @@ opencv2/calib3d.hpp
 -
 opencv2/imgproc.hpp
 -
-tracking.h
-/home/datta/amadee_ws/src/amadee-20/src/stereo_visual_odometry/include/stereo_visual_odometry/core/tracking.h
-
-/home/datta/amadee_ws/src/amadee-20/src/stereo_visual_odometry/include/stereo_visual_odometry/core/tracking.cpp
 tracking.h
 /home/datta/amadee_ws/src/amadee-20/src/stereo_visual_odometry/include/stereo_visual_odometry/core/tracking.h
 

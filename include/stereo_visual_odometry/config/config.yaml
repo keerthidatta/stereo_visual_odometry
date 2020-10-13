@@ -30,4 +30,4 @@ Camera.RGB: 1
 # Close/Far threshold. Baseline times.
 ThDepth: 100
 ground_truth: "gt_trajectory_seq22.txt"
-PATH_TO_IMAGE_SEQUENCE: "/home/datta/Thesis/My_Experiments/Visual_odometry/"
+PATH_TO_IMAGE_SEQUENCE: "../config/"
