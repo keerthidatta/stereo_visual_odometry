@@ -23,6 +23,9 @@ Feature matching is then performed and unmatched features are removed based on e
 
 Following are the pre-requisites to run this project in Ubuntu 18.04/16.04
 
+This is ros based project. Images are loaded from the environment through ROS topics. 
+But the project can also be run by providing image folder path in the config file.
+
 ### opencv4
 Install opencv from opencv.org
 
@@ -44,6 +47,7 @@ clone husky from https://github.com/keerthidatta/husky_mars.git
 5. source devel/setup.bash
 
 ### Usage
+* ROS 
 In threee different terminals, run
 
 1. roslaunch husky_gazebo_mars_world husky_mars.launch 
@@ -52,3 +56,33 @@ In threee different terminals, run
 
 3. 
 ![Alt text](img.jpg?raw=true "Control husky")
+
+* Without ROS
+1. Provide path to image sequence in the config.yaml file. 
+2. Adjust main.cpp as given in example. 
+3. In build folder run, ./stereo_visual_odometry ../config/config.yaml
+
+## Rubric points : For UDACITY final project
+
+### compiling and testing
+1. used ros cmake_lists and cmake. 
+* In stereo_visual_odometry/include/stereo_visual_odometry/build folder : make
+* In catkin_ws : catkin_make
+
+### Loops, Functions and I/O
+* Loops are used in main.cpp : Line 29
+* Functions are used in main.cpp, ros_wrapper, system, tracking
+* IO operation used in main.cpp to take calibration file / settings file : Line 17
+
+### Object oriented programming
+* Classes created in ros_wrapper, system, tracking, 
+* Class constructors utilize member initialization lists. (row_wrapper)
+* Classes encapsulate behavior (system, tracking)
+
+### Memory Management
+* Makes use of references (system, tracking.cpp)
+* Project uses smart pointer : Unique pointer in system.cpp(line 12)
+* Project uses move semantics : line 13 sysmtem.cpp
+
+### Concurrency 
+* Multithreading will be used in future to run parallel computations

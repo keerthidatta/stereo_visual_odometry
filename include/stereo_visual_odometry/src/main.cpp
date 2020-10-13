@@ -7,7 +7,6 @@ void load_image_right(cv::Mat &right_image, int frame, std::string images_sequen
 
 int main(int argc, char **argv)
 {
-    std::cout << "out" << std::endl;
     if(argc < 2)
     {
         std::cerr << "Usage: ./stereo_visual_odometry path_to_calibration" << std::endl;
